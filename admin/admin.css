@@ -1,0 +1,75 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #222;
+	font-size: 14px;
+	line-height: 20px;
+	width: 100%;
+}
+td {
+	font-size: 14px;
+	line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #444;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 26px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+	font-size: 18px;
+}
+a {
+    text-decoration: none;
+	color: #2081bb;
+}
+a:hover {
+	text-decoration: none;
+    color: #23a1d1;
+}
+.error {
+	color: #f00;
+}
+.messages {
+	position:fixed;
+	text-align: right;
+	z-index: 10;
+	top:0px;
+	right:0px;
+	min-height: 0px;
+	max-width: 300px;
+}
+.messages_error {
+	margin: 5px 15px;
+	background-color: #fc8f8f;
+	color:#222;
+	padding: 5px 15px;
+}
+.messages_success {
+	margin: 5px 15px;
+	background-color: #aefdae;
+	color:#222;
+	padding: 5px 15px;
+}
+.messages_info {
+	margin: 5px 15px;
+	background-color: #defc99;
+	color:#222;
+	padding: 5px 15px;
+}
+.lot_icon {
+	max-width: 160px;
+    max-height: 160px;
+    border: 0px;
+}
+.auction_logo {
+    border: 0px;
+    width: 128px;
+    margin: 0 auto;
+}
