@@ -40,7 +40,7 @@ defined('AREA') or die('Oops!...');
     <input type="hidden" name="user[login]" value="<?php echo $auth['login']; ?>">
     <tr>
         <td><?php fn_say('pass'); ?></td>
-        <td><input name="user[password]" value="" type="password" required></td>
+        <td><input name="user[password]" value="" type="password" type="email"></td>
     </tr>
     <tr>
         <td></td>
